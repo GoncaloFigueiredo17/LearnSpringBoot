@@ -18,6 +18,6 @@ public class OrderService {
     }
 
     public void placeOrder(){
-        paymentService.processPayment(10);
+        paymentService.processPayment(101);
     }
 }
