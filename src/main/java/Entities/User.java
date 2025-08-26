@@ -11,4 +11,7 @@ public class User {
     private long id;
     private String username;
     private int age;
+
+    public void addAttribute(String users, Iterable<User> all) {
+    }
 }

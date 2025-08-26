@@ -3,6 +3,8 @@ package Services;
 import Repository.UserRepository;
 import Entities.User;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Service
 public class UserService {
@@ -13,7 +15,7 @@ public class UserService {
         this.repository = repository;
     }
 
-    //guardar utilizadores
+
     public User save(User user){
         return repository.save(user);
     }
